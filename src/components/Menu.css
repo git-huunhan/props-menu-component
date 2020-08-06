@@ -1,0 +1,17 @@
+.Menu {
+  width: 100%;
+  border: 1px solid #e9e8e8;
+}
+
+.Menu-home {
+  background-color: white;
+}
+
+.Icon img {
+  margin-top: 1rem;
+}
+
+.Text p {
+  text-transform: uppercase;
+  color: #8E8E8E;
+}

@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 2rem 25rem 2rem 25rem;
+  background: rgba(221, 221, 221, 0.5);
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 5px;
 }
 
 .App-logo {
@@ -35,4 +44,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Menu-home {
+  width: 100%;
+  border-top: 2px solid #8CDC52;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.4);
+}
+
+.text-home p{
+  color: #8CDC52;
+  text-transform: uppercase;
 }
